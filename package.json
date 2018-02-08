@@ -1,0 +1,11 @@
+{
+  "name": "spicmacay",
+  "version": "1.0.0",
+  "description": "Spic macay official website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahesh Tudu",
+  "license": "ISC"
+}
