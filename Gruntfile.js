@@ -7,11 +7,15 @@ module.exports = function(grunt) {
         options: {
           engine: 'im',
           sizes: [{
-            width: 300,
-            quality: 30   //*************THis is it****************
+            width: 500,
+            quality: 80
           }, {
-            width: 600
-          }],
+            width: 800,
+            quality: 80
+          }, {
+            width: 1600,
+            quality: 100   //*************THis is it****************
+          }]
         },
 
         /*
@@ -21,23 +25,22 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           src: ['*.{gif,jpg,png}'],
-          cwd: 'images_src/',
-          dest: 'images/'
+          cwd: 'public/images_src/',
+          dest: 'public/images/'
         }]
       }
     },
-
     /* Clear out the images directory if it exists */
     clean: {
       dev: {
-        src: ['images'],
+        src: ['public/images'],
       },
     },
 /* Generate the images directory if it is missing */
     mkdir: {
       dev: {
         options: {
-          create: ['images']
+          create: ['public/images']
         },
       },
     },
@@ -47,8 +50,8 @@ images/directory */
       dev: {
         files: [{
           expand: true,
-          src: 'images_src/fixed/*.{gif,jpg,png}',
-          dest: 'images/'
+          src: 'public/images_src/fixed/*.{gif,jpg,png}',
+          dest: 'public/images/'
         }]
       },
     },
