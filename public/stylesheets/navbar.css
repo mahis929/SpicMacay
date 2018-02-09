@@ -79,7 +79,7 @@ section.sec1{
     display: none;
 }
 
-@media (max-width: 768px){
+@media (max-width: 1060px){
     .responsive-bar{
         display: block;
         width: 100%;
