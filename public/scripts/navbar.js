@@ -16,3 +16,7 @@ $(document).ready(function(){
         $("nav ul").toggleClass("fade");
     });
 });
+
+$('.carousel').carousel({
+    interval: 3000
+})

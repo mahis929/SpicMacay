@@ -1,0 +1,10 @@
+section.lorem{
+    z-index: 7;
+    color: #f00;
+}
+
+@media (max-width: 1060px){
+    section.sec1 .slideshow{
+        top: 60px;
+    }
+}
