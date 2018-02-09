@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 body{
     margin: 0;
@@ -144,7 +144,7 @@ section.sec1{
         position: absolute;
         width: 100%;
         top: 60px;
-        background-color: #36231c;
+        background-image: url(/images/bg2.jpg);
         float: none;
         left: 0;
         display: none;
