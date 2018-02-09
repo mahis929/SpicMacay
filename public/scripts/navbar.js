@@ -11,7 +11,7 @@ function myFunction(x) {
 }
 
 $(document).ready(function(){
-    $(".menu h4").click(function(){
+    $("h4").click(function(){
         $("nav ul").toggleClass("active");
     });
 });

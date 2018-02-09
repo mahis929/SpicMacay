@@ -99,7 +99,7 @@ section.sec1{
         height: 50px;
     }
 
-    .responsive-bar .menu h4{
+    .responsive-bar h4{
         float: right;
         color: #fff;
         margin: 0;
@@ -108,7 +108,7 @@ section.sec1{
         cursor: pointer;
     }
 
-    .responsive-bar .menu .bar1, .bar2, .bar3 {
+    .responsive-bar .bar1, .bar2, .bar3 {
         width: 35px;
         height: 5px;
         background-color: #333;
