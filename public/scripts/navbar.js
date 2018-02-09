@@ -13,5 +13,6 @@ function myFunction(x) {
 $(document).ready(function(){
     $("h4").click(function(){
         $("nav ul").toggleClass("active");
+        $("nav ul").toggleClass("fade");
     });
 });
