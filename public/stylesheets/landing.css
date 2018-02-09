@@ -6,11 +6,11 @@ body {
     z-index: 1;
     position: relative;
     text-align: center;
-    padding-top: 40vh;
+    padding-top: 20vh;
   }
 
-  #landing-header h1 {
-    color: #fff;
+  #landing-header img{
+    height: 150px;
   }
 
   .slideshow { 
@@ -84,16 +84,42 @@ body {
 .content .btn{
     border-radius: 9px;
     color: #f9f3f4;
-    margin-top: 20px;
+    margin-top: 50px;
     text-decoration: none;
     border: 3px solid;
-    padding: 7px 13px;
+    padding: 10px 20px;
     font-weight: bold;
+    transition: all 0.5s;
 }
 
-.content .btn:hover{
-    color: #2196f3;
+.content .btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
+
+.content .btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.content .btn:hover span {
+  padding-right: 25px;
+}
+
+.content .btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*.content .btn:hover{
+    color: #2196f3;
+}*/
 
 .item{
     -webkit-animation-duration: 1s;
