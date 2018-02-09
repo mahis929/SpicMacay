@@ -3,6 +3,10 @@ section.lorem{
     color: #f00;
 }
 
+section.hit{
+    padding-top: 60px;
+}
+
 @media (max-width: 1060px){
     section.sec1 .slideshow{
         top: 60px;

@@ -1,8 +1,10 @@
 $(window).on('scroll', function(){
     if($(window).scrollTop()){
         $('nav').addClass('black');
+        $('nav ul li').removeClass('blk');
     } else {
         $('nav').removeClass('black');
+        $('nav ul li').addClass('blk');
     }
 });
 
