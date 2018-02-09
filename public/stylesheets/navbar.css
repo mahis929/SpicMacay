@@ -128,6 +128,7 @@ section.sec1{
         transform: rotate(45deg) translate(-8px, -8px);
     }
 
+    nav,
     nav.black{
         background-color: #262626;
         height: 60px;
