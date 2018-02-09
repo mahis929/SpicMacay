@@ -6,6 +6,10 @@ $(window).on('scroll', function(){
     }
 });
 
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+
 $(document).ready(function(){
     $(".menu h4").click(function(){
         $("nav ul").toggleClass("active");
