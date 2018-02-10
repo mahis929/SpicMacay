@@ -10,3 +10,6 @@
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }
+#menu {
+	background-image: url('/images/bg2.jpg');
+}
