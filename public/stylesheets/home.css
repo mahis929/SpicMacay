@@ -3,6 +3,17 @@ section.lorem{
     color: #f00;
 }
 
+section.hit{
+    padding: 120px 20px 20px 20px;
+    margin: 0 auto;
+}
+
+.abimg{
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+}
+
 @media (max-width: 1060px){
     section.sec1 .slideshow{
         top: 60px;
