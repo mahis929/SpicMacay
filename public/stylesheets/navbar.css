@@ -49,11 +49,19 @@ nav ul{
 nav ul li{
     list-style-type: none;
     transition: 0.5s;
+    opacity: 0.8;
+    color: #fff;
+    line-height: 40px;
+    margin-right: 2px;
+}
+
+.blk{
+    background-color: black;
 }
 
 nav ul li a{
     line-height: 80px;
-    color: #262626;
+    color: #fff;
     padding: 5px 20px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -80,6 +88,15 @@ section.sec1{
 .responsive-bar{
     display: none;
 }
+
+/*ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+    float: left;
+}*/
 
 @media (max-width: 1060px){
     .responsive-bar{
