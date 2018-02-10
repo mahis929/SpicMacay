@@ -98,7 +98,7 @@ ul li:hover ul li{
     float: left;
 }*/
 
-@media (max-width: 1060px){
+@media (max-width: 1220px){
     .responsive-bar{
         display: block;
         width: 100%;
