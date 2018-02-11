@@ -1,0 +1,80 @@
+.heading h1{
+    text-align: center;
+    color: forestgreen;
+    margin: 30px 0 50px;
+}
+
+.heading .gallery {
+    margin: 10px 50px 10px 50px;
+    padding-left: 10px;
+}
+
+.heading .gallery img {
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    filter: grayscale(100%);
+}
+
+@media (max-width: 768px){
+    .heading .gallery {
+        margin: 10px 5px;
+        padding-left: 18px;
+    }
+    
+    .heading .gallery img {
+        height: 150px;
+        width: 150px;
+        padding: 5px;
+        filter: grayscale(100%);
+    }
+    
+}
+
+@media (max-width: 490px){
+    .heading .gallery {
+        margin: 10px 5px;
+        padding-left: 18px;
+    }
+    
+    .heading .gallery img {
+        height: 140px;
+        width: 140px;
+        padding: 5px;
+        filter: grayscale(100%);
+    }
+    
+}
+
+@media (max-width: 450px){
+    .heading .gallery {
+        margin: 10px 5px;
+        padding-left: 18px;
+    }
+    
+    .heading .gallery img {
+        height: 120px;
+        width: 120px;
+        padding: 5px;
+        filter: grayscale(0%);
+    }
+}
+
+@media (max-width: 490px){
+    .heading .gallery {
+        margin: 10px 5px;
+        padding-left: 15px;
+    }
+    
+    .heading .gallery img {
+        height: 140px;
+        width: 140px;
+        padding: 5px;
+        filter: grayscale(0);
+    }
+}
+
+.heading .gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}

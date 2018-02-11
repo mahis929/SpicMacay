@@ -31,4 +31,5 @@ router.get("/team", function(req, res){
 router.get("/contact", function(req, res){
     res.render("home/contact");
 });
+
 module.exports = router;
