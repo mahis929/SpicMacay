@@ -1962,7 +1962,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #3498db;
+		background-color: #FFB300;
 		color: #fff !important;
 	}
 
@@ -1971,7 +1971,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #4aa3df;
+			background-color: #FFCA28;
 		}
 
 		input[type="submit"]:active,
@@ -3107,7 +3107,7 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #3498db;
+			background-color: #FFB300;
 			color: #aed6f1;
 		}
 
@@ -3401,7 +3401,6 @@
 	}
 
 	#header {
-		background: rgba(0, 0, 0, 0.75);
 		color: #aed6f1;
 		cursor: default;
 		height: 3.25em;
@@ -3415,6 +3414,7 @@
 	}
 
 		#header > .logo {
+			overflow: visible;
 			display: inline-block;
 			height: inherit;
 			left: 1.25em;
@@ -3425,9 +3425,11 @@
 			top: 0;
 		}
 
-			#header > .logo a {
-				font-size: 1.25em;
-				color: #3498db;
+			#header > .logo img {
+			float: left;
+			padding-top: 1.25em;
+				width: 30%;
+				overflow: visible;
 			}
 
 				#header > .logo a:hover {
@@ -3446,7 +3448,7 @@
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
 			display: inline-block;
-			padding: 0 0.75em;
+			padding: 35px 0.75em;
 			color: inherit;
 			text-decoration: none;
 			color: #FFF;
@@ -3488,7 +3490,7 @@
 			@media screen and (max-width: 736px) {
 
 				#header > a {
-					padding: 0 0.5em;
+					padding: 15px 0.5em;
 				}
 
 					#header > a + a[href="#menu"]:last-child {
@@ -3516,9 +3518,9 @@
 			animation: none;
 			background-color: transparent;
 			box-shadow: none;
-			overflow: hidden;
+			overflow: visible;
 			position: absolute;
-			top: 1.5em;
+			top: 0;
 		}
 
 			#header.alt h1 {
