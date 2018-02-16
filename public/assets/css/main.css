@@ -3454,6 +3454,16 @@
 			color: #FFF;
 		}
 
+		#header > a img{
+			height: 40px;
+			opacity: 0.6;
+			margin-top: 5px;
+		}
+
+		#header > a img:hover{
+			opacity: 1;
+		}
+
 			#header > a:hover {
 				color: #3498db;
 			}
