@@ -3426,8 +3426,8 @@
 		}
 
 			#header > .logo img {
-			float: left;
-			padding-top: 1.25em;
+				float: left;
+				padding-top: 1.25em;
 				width: 30%;
 				overflow: visible;
 			}
@@ -3458,10 +3458,12 @@
 			height: 40px;
 			opacity: 0.6;
 			margin-top: 5px;
+			transition: 0.2s ease-in-out;
 		}
 
 		#header > a img:hover{
 			opacity: 1;
+			height: 42px;
 		}
 
 			#header > a:hover {
