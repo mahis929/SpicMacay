@@ -1,5 +1,5 @@
 function openSlideMenu(){
-      document.getElementById('side-menu').style.width = '300px';
+      document.getElementById('side-menu').style.width = '320px';
     }
 
     function closeSlideMenu(){
