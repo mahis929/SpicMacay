@@ -29,7 +29,7 @@ router.get("/team", function(req, res){
     res.render("home/team");
 });
 router.get("/contact", function(req, res){
-    res.render("home/contact");
+    res.render("home/contacts");
 });
 
 module.exports = router;
